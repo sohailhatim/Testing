@@ -1,7 +1,8 @@
 fairseq==0.12.2
 pandas==1.4.3
 sacrebleu==2.2.0
-torch==1.12.1
+torch==1.13.1
 torchaudio==0.12.1
 tqdm==4.64.0
-transformers==4.21.1
+transformers==4.30.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
