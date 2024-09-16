@@ -1,7 +1,11 @@
 fairseq==0.12.2
 pandas==1.4.3
 sacrebleu==2.2.0
-torch==1.12.1
+torch==2.2.0
 torchaudio==0.12.1
-tqdm==4.64.0
-transformers==4.21.1
+tqdm==4.66.3
+transformers==4.38.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
